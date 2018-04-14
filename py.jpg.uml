@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#C:/Users/lenovo/Desktop/tornado-branch3.1/tornado/web.py</OriginalElement>
+  <nodes>
+    <node x="161.0000000000001" y="80.0">_abcoll.Iterator</node>
+    <node x="570.6375" y="250.0">tornado.web._linkify</node>
+    <node x="1604.3875" y="170.0">tornado.web.RequestHandler</node>
+    <node x="1019.6375" y="250.0">tornado.web.GZipContentEncoding</node>
+    <node x="1497.6375" y="250.0">tornado.web.FallbackHandler</node>
+    <node x="2065.8875" y="80.0">_abcoll.Callable</node>
+    <node x="1719.6375" y="250.0">tornado.web.ErrorHandler</node>
+    <node x="62.5" y="325.0">BaseException</node>
+    <node x="124.63750000000005" y="250.0">tornado.web._xsrf_form_html</node>
+    <node x="2006.3875" y="170.0">tornado.web.Application</node>
+    <node x="110.5" y="170.0">tornado.web._UIModuleNamespace</node>
+    <node x="36.0" y="485.0">tornado.web.HTTPError</node>
+    <node x="737.6375" y="250.0">tornado.web.ChunkedTransferEncoding</node>
+    <node x="0.0" y="80.0">_abcoll.Iterable</node>
+    <node x="371.5000000000001" y="170.0">tornado.web.UIModule</node>
+    <node x="0.0" y="565.0">tornado.web.MissingArgumentError</node>
+    <node x="1924.6375" y="250.0">tornado.web.StaticFileHandler</node>
+    <node x="1319.8875" y="80.0">object</node>
+    <node x="898.3875" y="170.0">tornado.web.OutputTransform</node>
+    <node x="76.5" y="405.0">Exception</node>
+    <node x="342.63750000000005" y="250.0">tornado.web.TemplateModule</node>
+    <node x="1826.3875" y="170.0">tornado.web.URLSpec</node>
+    <node x="1278.8875" y="0.0">_abcoll.Hashable</node>
+    <node x="1274.6375" y="250.0">tornado.web.RedirectHandler</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="tornado.web.RedirectHandler" target="tornado.web.RequestHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="1376.1375" y="220.0" />
+      <point x="1629.6375" y="220.0" />
+      <point x="-75.75" y="15.0" />
+    </edge>
+    <edge source="tornado.web._UIModuleNamespace" target="_abcoll.Iterable">
+      <point x="-80.33333333333331" y="-15.0" />
+      <point x="150.66666666666674" y="150.0" />
+      <point x="70.5" y="150.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="object" target="_abcoll.Hashable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="tornado.web.UIModule" target="object">
+      <point x="0.0" y="-15.0" />
+      <point x="455.0000000000001" y="140.0" />
+      <point x="1336.8875" y="140.0" />
+      <point x="-17.0" y="15.0" />
+    </edge>
+    <edge source="tornado.web.URLSpec" target="object">
+      <point x="0.0" y="-15.0" />
+      <point x="1906.3875" y="140.0" />
+      <point x="1370.8875" y="140.0" />
+      <point x="17.0" y="15.0" />
+    </edge>
+    <edge source="Exception" target="BaseException">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="tornado.web._UIModuleNamespace" target="_abcoll.Iterator">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="tornado.web._xsrf_form_html" target="tornado.web.UIModule">
+      <point x="0.0" y="-15.0" />
+      <point x="223.63750000000005" y="230.0" />
+      <point x="399.3333333333335" y="230.0" />
+      <point x="-55.666666666666686" y="15.0" />
+    </edge>
+    <edge source="tornado.web.RequestHandler" target="object">
+      <point x="0.0" y="-15.0" />
+      <point x="1705.3875" y="150.0" />
+      <point x="1359.5541666666668" y="150.0" />
+      <point x="5.6666666666667425" y="15.0" />
+    </edge>
+    <edge source="tornado.web.StaticFileHandler" target="tornado.web.RequestHandler">
+      <point x="-2.2737367544323206E-13" y="-15.0" />
+      <point x="2027.1374999999998" y="220.0" />
+      <point x="1781.1375" y="220.0" />
+      <point x="75.75" y="15.0" />
+    </edge>
+    <edge source="tornado.web.MissingArgumentError" target="tornado.web.HTTPError">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="tornado.web.Application" target="_abcoll.Callable">
+      <point x="43.5" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="tornado.web.FallbackHandler" target="tornado.web.RequestHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="1598.6375" y="230.0" />
+      <point x="1680.1375" y="230.0" />
+      <point x="-25.25" y="15.0" />
+    </edge>
+    <edge source="tornado.web.ErrorHandler" target="tornado.web.RequestHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="1812.1375" y="230.0" />
+      <point x="1730.6375" y="230.0" />
+      <point x="25.25" y="15.0" />
+    </edge>
+    <edge source="tornado.web.TemplateModule" target="tornado.web.UIModule">
+      <point x="0.0" y="-15.0" />
+      <point x="446.63750000000005" y="230.0" />
+      <point x="455.0000000000001" y="230.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="tornado.web.OutputTransform" target="object">
+      <point x="0.0" y="-15.0" />
+      <point x="1002.8875" y="150.0" />
+      <point x="1348.2208333333333" y="150.0" />
+      <point x="-5.6666666666667425" y="15.0" />
+    </edge>
+    <edge source="tornado.web.HTTPError" target="Exception">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="tornado.web.ChunkedTransferEncoding" target="tornado.web.OutputTransform">
+      <point x="0.0" y="-15.0" />
+      <point x="868.6375" y="230.0" />
+      <point x="950.6375" y="230.0" />
+      <point x="-52.25" y="15.0" />
+    </edge>
+    <edge source="tornado.web._linkify" target="tornado.web.UIModule">
+      <point x="0.0" y="-15.0" />
+      <point x="644.1375" y="230.0" />
+      <point x="510.66666666666674" y="230.0" />
+      <point x="55.66666666666663" y="15.0" />
+    </edge>
+    <edge source="tornado.web.GZipContentEncoding" target="tornado.web.OutputTransform">
+      <point x="0.0" y="-15.0" />
+      <point x="1137.1375" y="230.0" />
+      <point x="1055.1375" y="230.0" />
+      <point x="52.25" y="15.0" />
+    </edge>
+    <edge source="tornado.web.Application" target="object">
+      <point x="-43.5" y="-15.0" />
+      <point x="2049.8875" y="130.0" />
+      <point x="1382.2208333333333" y="130.0" />
+      <point x="28.333333333333258" y="15.0" />
+    </edge>
+    <edge source="tornado.web._UIModuleNamespace" target="object">
+      <point x="80.33333333333331" y="-15.0" />
+      <point x="311.33333333333326" y="130.0" />
+      <point x="1325.5541666666668" y="130.0" />
+      <point x="-28.333333333333258" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5085278276481149" x="1104.0" y="297.5" />
+  <SelectedNodes>
+    <node>tornado.web.RedirectHandler</node>
+  </SelectedNodes>
+  <Categories />
+</Diagram>
+
